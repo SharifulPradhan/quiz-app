@@ -1,6 +1,3 @@
-"use client";
-import Link from "next/link";
-
 export default function HomePage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-blue-600 to-purple-800 text-white">
@@ -10,12 +7,9 @@ export default function HomePage() {
       <p className="text-lg md:text-xl mb-4 animate-fade-in delay-200">
         Test your knowledge. See your results instantly.
       </p>
-      <Link
-        href="/quiz"
-        className="bg-white text-black px-6 py-3 rounded-xl font-semibold hover:scale-105 transition-transform animate-fade-in delay-500"
-      >
+      <button className="bg-white text-black px-6 py-3 rounded-xl font-semibold hover:scale-105 transition-transform animate-fade-in delay-500">
         Start Quiz
-      </Link>
+      </button>
     </main>
   );
 }
