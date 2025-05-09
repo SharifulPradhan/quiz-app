@@ -64,7 +64,7 @@ export const basicQuiz = {
       question: "RAM-এর পূর্ণরূপ কী?",
       options: [
         { text: "Random Access Memory", icon: "⚡" },
-        { text: "Random Access Memory", icon: "📖" },
+        { text: "Rapid Access Memory", icon: "📖" },
         { text: "Rapid Action Module", icon: "🏃" },
         { text: "Remote Access Method", icon: "🖥️" },
       ],
